@@ -1,0 +1,62 @@
+@media screen and (max-width: 980px) {
+    #pagewrap {
+       width: 95%;
+    }
+    #content {
+       width: 60%;
+       padding: 3% 4%;
+    }
+    #sidebar {
+       width: 30%;
+    }
+    #sidebar .widget {
+       padding: 8% 7%;
+       margin-bottom: 10px;
+    }
+ }
+
+ @media screen and (max-width: 992px) {
+   .sign-in, .sign_up, .verification {
+      height: 540px;
+      padding: 5px 15px;
+   }
+   .btn_back{
+      top: 15px;
+   }
+   .title{
+      margin-top: 15px;
+   }
+   .verification_title{
+      line-height: 60px;
+   }
+   .enter{
+      margin-top: 125px;
+   }
+   .verify_btn{
+      margin-top: 5px;
+   }
+ }
+
+ @media screen and (max-width: 768px) {
+   
+ }
+
+ @media screen and (max-width: 325px) {
+   .sign-in, .sign_up, .verification {
+      width: 100vw;
+   }
+   .sign_in_btn{
+      width: 290px;
+   }
+   .account{
+      display: block;
+      margin: auto;
+   }
+   .verification_title {
+      margin-top: 30px;
+   }
+   .verification_subtitle {
+      width: 285px;
+   }
+ }
+

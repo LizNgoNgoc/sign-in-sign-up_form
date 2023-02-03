@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media-queries.css">
+</head>
+<body>
+    <section class="verification">
+        <button class="btn_back" onclick="goBack()"><img src="./images/BackVector.png" class= "img_btn" alt=""></button>
+        <h2 class="verification_title">Verification</h2>
+        <img src="./images/Wave.png"  class="verification_img" alt="">
+        <h2 class="enter">Enter OTP</h2>
+        <p class="verification_subtitle">
+            Enter the OTP code we just sent
+            you on your registered Email/Phone number
+        </p>
+        <div class="block_inp">
+            <input type="text" class="vetification_input" maxlength="1">
+            <input type="text" class="vetification_input" maxlength="1">
+            <input type="text" class="vetification_input" maxlength="1">
+            <input type="text" class="vetification_input" maxlength="1">
+            <input type="text" class="vetification_input" maxlength="1">
+        </div>
+        <p class="timer">05:00</p>
+        <p class="down_subtitle">
+            We send verification code to your 
+            email <span class="blue_text">topr****@outlook.com</span>. You can
+            check your inbox. 
+        </p>
+        <a href="" onclick="getCode()"class="havent_code hide_caption">I didn't receive the code? Send again</a>
+        <button class="verify_btn" onclick="verify()">Verify</button>
+    </section>
+    <input type="text" class="code">
+    <script src="./script.js"></script>
+    <script>
+        getCode()
+        startTimer() 
+    </script>
+</body>
+</html>

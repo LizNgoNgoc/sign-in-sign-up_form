@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media-queries.css">
+</head>
+<body>
+    <section class="sign-in">
+        <form id="sign">
+            <img src="./images/Logo.png" class='sign_in_logo' alt="">
+            <h2 class="title">Sign In</h2>
+            <p class="subtitle">Sign in to continue!</p>
+            <label>Email Address</label>
+            <input type="text" class="data" placeholder="Enter your email">
+            <label>Password</label>
+            <div class="password_container">
+                <input type="password" id = "password_input" class="data" placeholder="Enter your password">
+                <img src="./images/Eye.png" class="password_control eye_position" alt="">
+            </div>
+            <p class="forgot_password">Forgot Password?</p>
+            <label><input type="checkbox" class="checkbox"><span class="get_cookie">Rebember me</span></label>
+            <button type="button" onclick='btnSub("./varification.html")' class="sign_in_btn">Sign In</button>
+            <span class="account">Don’t have an account? <a href="./sign_up.html" class="create_account"> Sign Up</a></span>
+        </form>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

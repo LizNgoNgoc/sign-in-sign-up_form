@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300&family=Rubik:wght@400;500&display=swap');
+.sign-in, .sign_up, .verification{
+    position: fixed;
+    width: 375px;
+    height: 600px;
+    background-color: #252A34;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 30px 17px 50px 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.sign_in_logo {
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+
+.title {
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    color: rgba(234, 234, 234, 0.85);
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.data {
+    display: block;
+    border: 1.5px solid #08D9D6;
+    filter: drop-shadow(0px 0px 5px rgba(8, 217, 214, 0.25));
+    border-radius: 10px;
+    background-color: #252A34;
+    color: #FFFFFF;
+    height: 45px;
+    width: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 7px;
+}
+
+.sign-in label, .sign_up label {
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.forgot_password {
+    color: #08D9D6;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0;
+    margin-bottom: 12px;
+    text-align: end;
+}
+.checkbox {
+    background-image: url(/images/Logo.png);
+    border: 1.5px solid #08D9D6;
+    filter: drop-shadow(0px 0px 5px rgba(8, 217, 214, 0.25));
+    border-radius: 10px;
+    background-color: #252a3400;
+    height: 16px;
+    width: 16px;
+    box-sizing: border-box;
+ }
+
+.sign_in_btn {
+    color: #FFFFFF;
+    background-color: #08D9D6;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    box-shadow: 0px 0px 7px rgba(8, 217, 214, 0.87);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 342px;
+    height: 48px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.get_cookie {
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    width: 220px;
+    height: 22px;
+}
+
+.account {
+    color: #FFFFFF;
+    width: 208px;
+    height: 22px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 76px;
+}
+
+.create_account {
+    color: #08D9D6;
+    width: 208px;
+    height: 22px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+}
+
+.check {
+    margin-top: 20px;
+}
+
+.btn_back {
+    background-color:#08D9D6;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px; 
+    left: 16px;
+    top: 25px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.img_btn {
+    display: block;
+}
+
+.verification_title {
+    position: relative;
+    color: #FFFFFF;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.verification_img {
+    display: block;
+    width: 75%;
+    /* height: 350px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* bottom: 0; */
+    right: 0;
+    margin: auto;
+}
+
+.enter {
+    margin-top: 180px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    color: #08D9D6;
+
+}
+
+.verification_subtitle {
+    text-align: center;
+    color: #EAEAEA;
+    width: 345px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 5px auto;
+}
+.block_inp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.password_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.vetification_input {
+    border: 1.5px solid #08D9D6;
+    filter: drop-shadow(0px 0px 5px rgba(8, 217, 214, 0.25));
+    border-radius: 10px;
+    background-color: #252A34;
+    color: #FFFFFF;
+    height: 65px;
+    width: 16%;
+    /* padding-left: 15px; */
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+}
+
+.timer {
+    color: #08D9D6;
+    margin: 5px auto;
+}
+
+.down_subtitle {
+    color: #EAEAEA;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    width: 288px;
+    margin: 5px 0;
+}
+
+.blue_text {
+    color: #08D9D6;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.havent_code {
+    color: #08D9D6;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    width: 345px;
+}
+
+.hide_caption {
+    display: none;
+}
+
+.verify_btn {
+    color: #FFFFFF;
+    background-color: #08D9D6;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    box-shadow: 0px 0px 7px rgba(8, 217, 214, 0.87);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 342px;
+    height: 48px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+
+.eye_position {
+    position: absolute;
+    right: 10px;
+}
+
+.red_border {
+    border-color: red;
+}
